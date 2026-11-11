@@ -1,0 +1,18 @@
+# 构建中间产物
+video/.build/
+.qa-cache/
+
+# 系统与依赖
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.log
+*.wav
+
+# 编辑器
+.vscode/
+.idea/

@@ -1,0 +1,33 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "crf": 18,
+  "narr": [
+    { "t0": 0.6, "t1": 4.3, "text": "传说，天堂和地狱的伙食，\n是一模一样的。" },
+    { "t0": 4.9, "t1": 7.9, "text": "只是，有一样东西\n很特别。" },
+    { "t0": 8.3, "t1": 11.1, "text": "筷子——特别长。" },
+    { "t0": 11.8, "t1": 16.4, "text": "长到怎么伸，\n都送不进自己嘴里。" },
+    { "t0": 16.8, "t1": 21.8, "text": "天堂里，每个人夹起菜，\n都先递给对面的人。" },
+    { "t0": 22.3, "t1": 26.9, "text": "大家都能吃饱吃好，\n笑得心满意足。" },
+    { "t0": 27.3, "t1": 30.9, "text": "而地狱里，\n人人都把筷子攥得紧紧的。" },
+    { "t0": 31.3, "t1": 34.7, "text": "你抢我的，\n我抢你的。" },
+    { "t0": 35.3, "t1": 39.7, "text": "抢到最后，\n谁也没吃上一口。" }
+  ],
+  "outro": [
+    { "t0": 40.0, "t1": 46.6, "style": "Lead", "y": 392, "text": "所以" },
+    { "t0": 42.0, "t1": 46.6, "style": "Lead2", "y": 486, "text": "所谓天堂和地狱——" },
+    { "t0": 44.0, "t1": 46.6, "style": "Title", "y": 606, "text": "只隔着一双，指向谁的筷子。" }
+  ],
+  "beats": [
+    { "id": "c01_split", "kind": "static", "img": "split_composite", "dur": 8.0, "grade": "neutral", "grain": 4 },
+    { "id": "c02_cross", "kind": "still", "img": "10c_chopstick_cross", "dur": 3.5, "z0": 1.0, "z1": 1.05, "grade": "neutral", "grain": 6 },
+    { "id": "c03_close", "kind": "still", "img": "03d_closeup_fail", "dur": 5.0, "z0": 1.0, "z1": 1.04, "grade": "hellCold", "grain": 6 },
+    { "id": "c04_feed", "kind": "still", "img": "06_heaven_feed", "dur": 5.5, "z0": 1.0, "z1": 1.08, "grade": "heaven", "grain": 5, "bloom": true },
+    { "id": "c05_full", "kind": "still", "img": "10a_heaven_full", "dur": 5.0, "z0": 1.07, "z1": 1.0, "grade": "heaven", "grain": 5, "bloom": true },
+    { "id": "c06_grip", "kind": "still", "img": "10d_hell_grip", "dur": 4.0, "z0": 1.0, "z1": 1.09, "grade": "hellCold", "grain": 8, "shake": true },
+    { "id": "c07_grab", "kind": "still", "img": "04_hell_grab", "dur": 4.0, "z0": 1.05, "z1": 1.16, "panX": -50, "grade": "hellCold", "grain": 9, "shake": true },
+    { "id": "c08_starved", "kind": "still", "img": "10b_hell_starved", "dur": 5.0, "z0": 1.0, "z1": 1.05, "grade": "hellCold", "grain": 7 },
+    { "id": "c09_title", "kind": "still", "img": "09_title_chopsticks", "dur": 8.0, "z0": 1.0, "z1": 1.06, "freeze": 2.5, "grade": "title", "grain": 4, "fadeIn": 0.5, "fadeOut": 1.3 }
+  ]
+}
